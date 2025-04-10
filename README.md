@@ -4,6 +4,8 @@
 
 **CMC-TS** is a Python framework for discovering **population-level causal structures** in binary time series datasets where variable measurements vary across instances — a common scenario in healthcare, where data collection is tied to clinical events.
 
+The method is published in L.A. Gomez, J. Claassen, and S. Kleinberg (2025) Causal Inference for Time Series Datasets with Partially Overlapping Variables. *Journal of Biomedical Informatics*
+
 CMC-TS iteratively combines partial observations across datasets to:
 1. Identify causal relationships with temporal lag.
 2. Group datasets by shared variable structures.
